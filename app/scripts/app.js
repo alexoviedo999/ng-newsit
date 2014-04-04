@@ -5,8 +5,12 @@ var app = angular.module('ngNewsitApp', [
     'ngCookies',
     'ngResource',
     'ngSanitize',
-    'ngRoute'
+    'ngRoute',
+    'firebase'
   ]);
+
+  app.constant('FIREBASE_URL', 'https://ng-newsit.firebaseio.com/');
+
   app.config(function ($routeProvider) {
     $routeProvider
       .when('/', {
