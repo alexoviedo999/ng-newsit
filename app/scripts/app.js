@@ -1,7 +1,7 @@
 /* global app:true */
 'use strict';
 
-var app = angular.module('ngNewsitApp', [
+var app = angular.module('ng-newsit', [
     'ngCookies',
     'ngResource',
     'ngSanitize',
